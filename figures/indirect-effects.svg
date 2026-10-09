@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" width="720" height="330" font-family="Helvetica, Arial, sans-serif">
+  <rect width="720" height="330" fill="#ffffff"/>
+  <text x="24" y="30" font-size="16" font-weight="700" fill="#2a2420">How the underdog effect reaches purchase intention</text>
+  <text x="24" y="50" font-size="12" fill="#6f635a">Indirect effects (b) with 95% bootstrap confidence intervals, 5,000 resamples, N = 169</text>
+
+  <!-- grid -->
+  <g stroke="#ebe2d7" stroke-width="1">
+    <line x1="220" y1="70" x2="220" y2="280"/>
+    <line x1="351.4" y1="70" x2="351.4" y2="280"/>
+    <line x1="417.1" y1="70" x2="417.1" y2="280"/>
+    <line x1="482.8" y1="70" x2="482.8" y2="280"/>
+    <line x1="548.5" y1="70" x2="548.5" y2="280"/>
+    <line x1="614.2" y1="70" x2="614.2" y2="280"/>
+    <line x1="680" y1="70" x2="680" y2="280"/>
+  </g>
+  <line x1="285.7" y1="70" x2="285.7" y2="280" stroke="#6f635a" stroke-width="1.5"/>
+
+  <!-- axis labels -->
+  <g font-size="11" fill="#6f635a" text-anchor="middle">
+    <text x="220" y="298">-0.1</text>
+    <text x="285.7" y="298">0</text>
+    <text x="351.4" y="298">0.1</text>
+    <text x="417.1" y="298">0.2</text>
+    <text x="482.8" y="298">0.3</text>
+    <text x="548.5" y="298">0.4</text>
+    <text x="614.2" y="298">0.5</text>
+    <text x="680" y="298">0.6</text>
+  </g>
+
+  <!-- row labels -->
+  <g font-size="13" fill="#2a2420" text-anchor="end">
+    <text x="205" y="99">Product symbolism</text>
+    <text x="205" y="151">Brand authenticity</text>
+    <text x="205" y="203">Product aesthetics</text>
+    <text x="205" y="255">Product functionality</text>
+  </g>
+
+  <!-- symbolism 0.328 [0.126, 0.555] -->
+  <rect x="285.7" y="82" width="215.5" height="24" fill="#a4532e"/>
+  <line x1="368.5" y1="94" x2="650.3" y2="94" stroke="#2a2420" stroke-width="1.5"/>
+  <line x1="368.5" y1="88" x2="368.5" y2="100" stroke="#2a2420" stroke-width="1.5"/>
+  <line x1="650.3" y1="88" x2="650.3" y2="100" stroke="#2a2420" stroke-width="1.5"/>
+  <text x="660" y="99" font-size="12" font-weight="700" fill="#2a2420">0.33</text>
+
+  <!-- authenticity 0.178 [0.071, 0.308] -->
+  <rect x="285.7" y="134" width="116.9" height="24" fill="#a4532e"/>
+  <line x1="332.3" y1="146" x2="488.1" y2="146" stroke="#2a2420" stroke-width="1.5"/>
+  <line x1="332.3" y1="140" x2="332.3" y2="152" stroke="#2a2420" stroke-width="1.5"/>
+  <line x1="488.1" y1="140" x2="488.1" y2="152" stroke="#2a2420" stroke-width="1.5"/>
+  <text x="498" y="151" font-size="12" font-weight="700" fill="#2a2420">0.18</text>
+
+  <!-- aesthetics 0.071 [0.007, 0.162] -->
+  <rect x="285.7" y="186" width="46.6" height="24" fill="#d9a688"/>
+  <line x1="290.3" y1="198" x2="392.1" y2="198" stroke="#2a2420" stroke-width="1.5"/>
+  <line x1="290.3" y1="192" x2="290.3" y2="204" stroke="#2a2420" stroke-width="1.5"/>
+  <line x1="392.1" y1="192" x2="392.1" y2="204" stroke="#2a2420" stroke-width="1.5"/>
+  <text x="402" y="203" font-size="12" fill="#2a2420">0.07</text>
+
+  <!-- functionality 0.010 [-0.051, 0.071] -->
+  <rect x="285.7" y="238" width="6.6" height="24" fill="#b9aea4"/>
+  <line x1="252.2" y1="250" x2="332.3" y2="250" stroke="#2a2420" stroke-width="1.5"/>
+  <line x1="252.2" y1="244" x2="252.2" y2="256" stroke="#2a2420" stroke-width="1.5"/>
+  <line x1="332.3" y1="244" x2="332.3" y2="256" stroke="#2a2420" stroke-width="1.5"/>
+  <text x="342" y="255" font-size="12" fill="#6f635a">0.01, not significant</text>
+
+  <text x="24" y="322" font-size="11" fill="#6f635a">Underdog (Dr. Squatch) vs incumbent (Old Spice). Parallel mediation, equivalent to PROCESS Model 4, estimated with lavaan in R.</text>
+</svg>
