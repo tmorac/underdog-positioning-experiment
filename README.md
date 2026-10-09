@@ -20,21 +20,7 @@ Yet a challenger, **Dr. Squatch**, broke into this market with a functionally si
 
 ## The experiment
 
-```mermaid
-flowchart LR
-    X[Underdog vs incumbent<br/>positioning] --> A[Brand authenticity]
-    X --> S[Product symbolism]
-    X --> E[Product aesthetics]
-    X --> F[Product functionality]
-    A --> Y[Purchase intention]
-    S --> Y
-    E --> Y
-    F --> Y
-    H([Perceived humour]) -.moderates.-> A
-    H -.-> S
-    H -.-> E
-    H -.-> F
-```
+![Research model: underdog positioning affects purchase intention through authenticity and three product design dimensions, with humour as moderator](figures/research-model.svg)
 
 - **Design:** randomised, two-group, between-subjects experiment.
 - **Conditions:** each participant saw one real brand.
